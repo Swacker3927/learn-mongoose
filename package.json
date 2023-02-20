@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "description": "hello package.json",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified.\" && exit 1"
+  },
+  "author": "lee31",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^6.9.2",
+    "morgan": "~1.9.1",
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
